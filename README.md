@@ -77,11 +77,17 @@ bun run src/cli.ts --test-run
 - 只处理包含数字的文件
 - 文件按数字模式分组处理
 - 隐藏文件（以 `.` 开头）会被自动跳过
+- 智能识别文件名末尾的数字（通常是集数/序号），不影响其他数字（如年份）
 
-## 发布
+## 仓库
 
-[npmjs.com/package/name-auto-pad](https://www.npmjs.com/package/name-auto-pad)
+GitHub: [uppet/name-auto-pad](https://github.com/uppet/name-auto-pad)
+
+## 作者
+
+Joyer Huang
 
 ## 许可证
 
-MIT
+[MIT](LICENSE)
+

@@ -1,6 +1,6 @@
 {
   "name": "name-auto-pad",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "自动扫描文件并按数字补零对齐的命令行工具",
   "type": "module",
   "main": "./dist/index.js",
@@ -19,8 +19,13 @@
     "pad",
     "zero-pad"
   ],
-  "author": "",
+  "author": "Joyer Huang",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uppet/name-auto-pad.git"
+  },
+  "homepage": "https://github.com/uppet/name-auto-pad",
   "files": [
     "dist",
     "README.md"
